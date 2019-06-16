@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Geometries">
+      <UniqueIdentifier>{d98b373f-9508-420e-9c69-0c1da1bcd801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometries">
+      <UniqueIdentifier>{8ccff42f-c905-409a-9bb4-6fff2823a17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9b22b658-0aca-4386-8454-272988ef8053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{3e01b7c3-a018-4253-97b0-5240ce695318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials">
+      <UniqueIdentifier>{03110088-83f5-42ce-aba6-dd80113f6176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{0d652f6c-e3c7-43e0-b608-b09052fca9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{378a4456-16e0-45f6-b992-f086c3f9e20a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometries\CubeGeometry.cpp">
+      <Filter>Source Files\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SolidMaterial.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeSceneObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometries\CubeGeometry.h">
+      <Filter>Header Files\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SolidMaterial.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeSceneObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\basicVS.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\solidFS.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
